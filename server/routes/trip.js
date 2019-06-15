@@ -18,9 +18,10 @@ var allDistanceData = {
 }
 var pool = mysql.createPool({
     host: 'localhost',
-    user: 'root',
-    password: '8151186051',
-    database: 'trip'
+  user: 'root',
+  // password: '8151186051',
+  password: 'Hello123',
+  database: 'trip'
 });
 /* GET users listing. */
 // 历史列表接口
